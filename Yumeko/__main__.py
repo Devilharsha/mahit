@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 YUMEKO_IMG = "https://telegra.ph//file/0acdb8a305e1b077c3e90.jpg"
 
 PM_START_TEXT = """
-**Hey I am Yumeko** [ㅤ](https://telegra.ph//file/0acdb8a305e1b077c3e90.jpg)
+**Hey I am Nᴀʀᴜᴛᴏ Uᴢᴜᴍᴀᴋɪ | うずまき ナルト** [ㅤ](https://telegra.ph//file/0acdb8a305e1b077c3e90.jpg)
 ️➖➖➖➖➖➖➖➖➖➖➖➖➖
 **×I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!**
 ️➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -84,13 +84,12 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="➕ Add Naruto To Your group ➕", url="http://t.me/?startgroup=true"),
+        InlineKeyboardButton(text="➕ Add Naruto To Your group ➕", url="http://t.me/NarutoUzumakiTheBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="About", callback_data="yumeko_"),
+        InlineKeyboardButton(text="updates", url="https://t.me/ASIOfficial121"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/"
-        ),
+            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ASIOFFICIAL1211DISCUSSION"),
     ],
     [
         
