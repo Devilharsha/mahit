@@ -72,10 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-YUMEKO_IMG = "https://telegra.ph/file/e0040466048302df1a451.mp4"
+YUMEKO_IMG = "https://telegra.ph//file/0acdb8a305e1b077c3e90.jpg"
 
 PM_START_TEXT = """
-**Hey I am Yumeko** [ㅤ](https://telegra.ph/file/6643b0fb6792b2e5e844a.mp4)
+**Hey I am Yumeko** [ㅤ](https://telegra.ph//file/0acdb8a305e1b077c3e90.jpg)
 ️➖➖➖➖➖➖➖➖➖➖➖➖➖
 **×I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!**
 ️➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -84,7 +84,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="➕ Add Yumeko To Your group ➕", url="http://t.me/?startgroup=true"),
+        InlineKeyboardButton(text="➕ Add Naruto To Your group ➕", url="http://t.me/?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="yumeko_"),
@@ -101,7 +101,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-**Main commands:**  [ㅤ](https://telegra.ph/file/efdee100cc31b4b3e0be2.mp4)
+                (https://telegra.ph//file/0acdb8a305e1b077c3e90.jpg)
 ❂ /start: Starts me! You've probably already used this.
 ❂ /help: Sends this message; I'll tell you more about myself.
 
@@ -111,7 +111,7 @@ If you want to report any bugs or need any help with setting up Yumeko, reach us
 
 
 DONATE_STRING = """Hehe, baka!!
- [Is that so!!](https://t.me/Ryu_God) ❤️
+ [Is that so!!](https://t.meMahith1211/) ❤️
 """
 
 IMPORTED = {}
@@ -398,7 +398,7 @@ def yumeko_about_callback(update, context):
             f"\n\n1.) first, add me to your group.\n"
             f"2.) then promote me as admin and give all permissions except anonymous admin.\n"
             f"3.) after promoting me, type /reload in group to update the admin list.\n"
-            f"4.) add @LunaAssistant to your group or type /join to invite her.\n"
+            f"4.) add @soonweadd to your group or type /join to invite her.\n"
             f"5.) turn on the video chat first before start to play music.\n"
             f"\n📌 if userbot doesn't join voice chat make sure voice chat is active, or type /leave then type /join again..",
             parse_mode=ParseMode.MARKDOWN,
@@ -477,13 +477,13 @@ def yumeko_about_callback(update, context):
     elif query.data == "yumeko_credit":
         query.message.edit_text(
             text=f"<b> `Cʀᴇᴅɪᴛ Fᴏʀ Lᴜɴᴀ Dᴇᴠ's` </b>\n"
-            f"\nHᴇʀᴇ Sᴏᴍᴇ Dᴇᴠᴇʟᴏᴘᴇʀs Hᴇʟᴘɪɴɢ Iɴ Mᴀᴋɪɴɢ Tʜᴇ YUMEKO",
+            f"\nHᴇʀᴇ Sᴏᴍᴇ Dᴇᴠᴇʟᴏᴘᴇʀs Hᴇʟᴘɪɴɢ Iɴ Mᴀᴋɪɴɢ Tʜᴇ naruto",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="亗 ʀʏᴜ", url="https://t.me/Ryu_God"),
-                    InlineKeyboardButton(text="Tarun • [ᴀc͜͡ɢᴄ]", url="https://t.me/TheBlackLinen"),
+                    InlineKeyboardButton(text="亗 ʀʏᴜ", url="https://t.me/Mahitj1211"),
+                    InlineKeyboardButton(text="Tarun • [ᴀc͜͡ɢᴄ]", url="https://t.me/SENKUBOTS"),
                  ],
                  [
                     InlineKeyboardButton(text="Bot", url="https://t.me/"),
@@ -578,7 +578,7 @@ def yumeko_about_callback(update, context):
 
     elif query.data == "yumeko_lic":
         query.message.edit_text(
-            text=f"Yumeko is a powerful bot for managing groups with additional features.\n"
+            text=f"Naruto is a powerful bot for managing groups with additional features.\n"
               f"\nYumeko's Licensed Under The GNU (General Public License v3.0)\n"
               f"\nIf you have any question about Luna,"
               f"\nreach us at Support Chat.",
@@ -901,7 +901,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I Aᴍ Aʟɪᴠᴇ](https://telegra.ph/file/66f93d07eb12515e973b7.mp4), parse_mode=ParseMode.MARKDOWN")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I Am alright), parse_mode=ParseMode.MARKDOWN")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
